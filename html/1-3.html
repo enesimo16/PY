@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <noscript>Tarayicinizda javascript kapali, lütfen aciniz.</noscript>
+
+    <p id="result" class="test">Javascript ile HTML'ye hukmedebilirim.</p>
+    <input type="button" value="bas bakalim" onclick="Proccess();">
+    <script>
+        /* document.write("Hello");
+        alert("uyari mesaj kismi") */
+
+        function Proccess() {
+            document.getElementById("result").innerHTML = "Javascript içeriğe ulaştı fakat nasıl?"
+        }
+
+
+
+    </script>
+</body>
+
+</html>

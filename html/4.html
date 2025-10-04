@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <input type="button" value="Open light" onclick="openLight();">
+    <img src="pic/" alt="off.png" id="picture">
+    <input type="button" value="Close light" onclick="closeLight();">
+    <script>
+        /* document.write("Hello");
+        alert("uyari mesaj kismi") */
+
+        function openLight() {
+            document.getElementById("Picture").src = "pic/on.jpg";
+        }
+
+        function closeLight() {
+            document.getElementById("Picture").src = "pic/off.png";
+        }
+    </script>
+
+</body>
+
+</html>
